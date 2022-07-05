@@ -1,0 +1,255 @@
+@font-face {
+    font-family: 'gilroybold';
+    src: url('gilroy-bold-webfont.woff2') format('woff2'),
+         url('gilroy-bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'Gilroy';
+    src: url('Gilroy-Regular.woff2') format('woff2'),
+        url('Gilroy-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+
+.hat {
+	width: 68vw;
+	display: flex;
+	color: rgba(130, 130, 130, 1);
+	flex-direction: row;
+	margin: 4vh auto;
+	justify-content: space-between;
+	align-items: center;
+	font-family: 'Gilroy';
+	font-weight: bold;
+	font-size: 18px;
+}
+
+.small-line {
+	width: 68vw;
+}
+
+.info {
+	width: 68vw;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: flex-end;
+	margin: 4vh auto;
+}
+
+.name {
+	font-family: 'Gilroy';
+	font-weight: bold;
+	font-size: 47px;
+}
+
+.profession {
+	font-family: 'Gilroy';
+	font-weight: medium;
+	font-size: 18px;
+}
+
+.lang {
+	transform: rotate(-90deg);
+	margin-bottom: 2.5vh;
+}
+
+.lang-ru {
+	font-family: 'Gilroy';
+	font-weight: bold;
+	font-size: 16px;
+	color: rgba(130, 130, 130, 1);
+}
+
+.lang-en {
+	font-family: 'Gilroy';
+	font-weight: bold;
+	font-size: 16px;
+	color: black;
+}
+
+.dn-photo {
+	width: 68vw;
+	height: 387px;
+	background: url(images/photo.png) no-repeat;
+	background-size: 100%;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 5vh;
+	margin-bottom: 9vh;
+}
+
+.aboutme {
+	margin-top: 10vh;
+	margin-left: auto;
+	margin-right: auto;
+	background: rgba(229, 229, 229, 1);
+	padding-bottom: 7vh;
+}
+
+.am-title {
+	font-family: 'Gilroy';
+	font-weight: bold;
+	font-size: 36px;
+	color: black;
+	width: 30vw;
+	margin-left: auto;
+	margin-right: auto;
+	padding-top: 8vh;
+	text-align: center;
+}
+
+.am-info {
+	font-family: 'Gilroy';
+	font-weight: medium;
+	font-size: 19px;
+	color: black;
+	width: 30vw;
+	text-align: center;
+	margin: 5vh auto;
+}
+
+.par {
+	margin-bottom: 4vh;
+}
+
+.sk-title {
+	width: 30vw;
+	margin-left: auto;
+	margin-right: auto;
+	padding-top: 8vh;
+	text-align: center;
+	font-family: 'Gilroy';
+	font-weight: bold;
+	font-size: 36px;
+	color: black;
+}
+
+.sk-info {
+	font-family: 'Gilroy';
+	font-weight: 500;
+	font-size: 23px;
+	color: black;
+	width: 30vw;
+	margin: 8vh auto;
+	text-align: center;
+}
+
+.sk-programs {
+	display: flex;
+	flex-direction: row;
+	width: 66vw;
+	justify-content: center;
+	margin: 0 auto;
+	margin-bottom: 14vh;
+	align-items: center;
+}
+
+.sk-programs > .item {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: flex-end;
+}
+
+.item-info {
+	font-family: 'Gilroy';
+	font-weight: 500;
+	font-size: 15px;
+	color: rgba(130, 130, 130, 1);
+	margin-top: 1.5vh;
+	text-align: center;
+}
+
+.sanya {
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-end;
+}
+
+.sanya>.item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 10vh;
+}
+
+.Portfolio {
+	background: rgba(229, 229, 229, 1);
+}
+
+.Portfolio > .pf-items {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.Portfolio > .pf-items > .item {
+	margin-bottom: 8vh;
+}
+
+.item-title {
+	font-family: 'Gilroy';
+	font-weight: 500;
+	font-size: 19px;
+	text-align: center;
+	text-decoration: underline;
+	margin-top: 4vh;
+}
+
+.c-text {
+	font-family: 'Gilroy';
+	font-weight: 600;
+	font-size: 21px;
+	text-align: center;
+}
+
+.c-button {
+	font-family: 'Gilroy';
+	font-weight: 600;
+	font-size: 21px;
+	text-align: center;
+	margin-bottom: 10vh;
+}
+
+.button1 {
+	margin-top: 3vh; 
+	sborder: 0px; 
+	background-color: black; 
+	color: white;
+	border-radius: 30px;
+	border: 5px solid black; 
+	padding: 1vh 3vw;
+	transition-duration: 0.4s;
+}
+
+.button1:hover {
+	border: 10px solid black;
+}
+
+.networks {
+	display: flex;
+	width: 30vw;
+	flex-direction: row;
+	justify-content: space-around;
+	align-items: center;
+	margin: 0 auto;
+}
+
+.social-text {
+	margin-top: 5vh;
+	margin-bottom: 7vh;
+	font-family: 'Gilroy';
+	font-size: 18px;
+	font-weight: 500;
+	color: rgba(130, 130, 130, 1);
+	text-align: center;
+}
